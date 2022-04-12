@@ -1,23 +1,23 @@
-F5 Volterra WAF 101
+F5 Distributed Cloud WAF 101
 ===================
 
 `Last updated: 2022-01-19 2:00 AM ET`
 
-F5’s  Volterra SaaS Web Application Firewall (WAF) can help you mitigate application threats 
+F5’s  Distributed Cloud SaaS Web Application Firewall (WAF) can help you mitigate application threats 
 with an updated WAF engine that inherits the shared  capabilities of F5 BIG-IP Advanced WAF, 
 and NGINX App Protect. During this hands-on lab you will learn about the following: 
 
-- F5’s Volterra Platform for providing edge WAF and DDoS protection  
-- Updates to Volterra’s WAF engine that is powered by F5’s WAF engine  
-- Hands-on lab of deploying Volterra’s WAF   
-- Protecting existing Public IP resource via F5’s hosted Volterra WAF    
-- Deploying Volterra WAF into a cloud provider network (AWS) to protect internal Private IP resources via F5’s Volterra WAF  
+- F5’s Distributed Cloud Platform for providing edge WAF and DDoS protection  
+- Updates to F5 Distributed Cloud’s WAF engine that is powered by F5’s WAF engine  
+- Hands-on lab of deploying Distributed Cloud’s WAF   
+- Protecting existing Public IP resource via F5’s hosted Distributed Cloud WAF    
+- Deploying Distributed Cloud WAF into a cloud provider network (AWS) to protect internal Private IP resources via F5’s Volterra WAF  
 
 
 Lab Environment
 ~~~~~~~~~~~~~~~
 
-During this lab you will be using the shared Volterra `f5-sales-public` tenant (the first lab exercise will 
+During this lab you will be using the shared Distributed Cloud Platform `f5-sales-public` tenant (the first lab exercise will 
 cover how to access this environment).
 
 The lab will also be using a shared AWS account where we have deployed the following resources.
