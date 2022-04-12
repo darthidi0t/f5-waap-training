@@ -1,7 +1,7 @@
 Lab 2: Protecting a Public Endpoint
 ===================================
 
-During this lab you will be introduced to creating a WAF policy in Volterra
+During this lab you will be introduced to creating a WAF policy in F5 Distributed Cloud
 and using that policy to protect your lab resource that is a "Public Endpoint"
 in AWS (webserver with an EIP).
 
