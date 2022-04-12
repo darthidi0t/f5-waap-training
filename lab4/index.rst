@@ -1,9 +1,9 @@
 Lab 4: Protecting a Private Endpoint
 ====================================
 
-In the previous lab you learned how a VoltMesh node can be deployed 
+In the previous lab you learned how a Cloud Mesh node can be deployed 
 
-In this next lab we will look at two additional topologies of how you can use a "VoltMesh" node
+In this next lab we will look at two additional topologies of how you can use a "Cloud Mesh" node
 to secure traffic that is going to an endpoint that is not directly exposed to the Internet.
 
 .. toctree::
