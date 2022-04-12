@@ -1,4 +1,4 @@
-Creating HTTP Load Balancer on Volterra Regional Edge
+Creating HTTP Load Balancer on Distributed Cloud Console Regional Edge
 =====================================================
 
 In this exercise we will be creating a "Global VIP" that will exist on the Volterra Global Network.
@@ -10,7 +10,7 @@ It will protect a public resource that exists in the lab's AWS Lab Environment.
 Exercise 1: HTTP Load Balancer Configuration
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-#. Start in VoltConsole and switch to the "Web App & API Protection" context. [You should already be here from previous lab]
+#. Start in Distributed Cloud Console and switch to the "Web App & API Protection" context. [You should already be here from previous lab]
 
 #. Navigate the menu to go to "Manage"->"Load Balancers" -> "HTTP Load Balancers" and click on "Add HTTP Load Balancer".
 
@@ -84,7 +84,7 @@ You should see a block page.
 Exercise 5: Performance and Security 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-#. Start in VoltConsole and switch to the "Web App & API Protection" context. [You should already be here from previous lab]
+#. Start in Distributed Cloud Console and switch to the "Web App & API Protection" context. [You should already be here from previous lab]
 
 We can view details of successful requests and blocks by navigating to "Apps & APIs"
 
@@ -119,15 +119,4 @@ We can view details of successful requests and blocks by navigating to "Apps & A
 
 Next we will demonstrate how we 
 can securely connect to your private AWS resources via a VoltMesh node.
-
-Video Walkthrough 
-~~~~~~~~~~~~~~~~~
-Optional Video you can watch if you get stuck
-
-.. raw:: html
-   
-   <iframe width="560" height="315" src="https://www.youtube.com/embed/s-BHH0Qayfc?start=108" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-.. |app-context| image:: ../_static/app-context.png
-.. |lb-basic| image:: ../_static/lb-basic.png
 
