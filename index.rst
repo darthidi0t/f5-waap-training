@@ -20,10 +20,10 @@ Lab Environment
 During this lab you will be using the shared Distributed Cloud Platform `f5-sales-public` tenant (the first lab exercise will 
 cover how to access this environment).
 
-The lab will also be using a shared AWS account where we have deployed the following resources.
+The lab will also be using a AWS account where we have deployed the following resources.
 
 - NGINX webserver that is exposed to the Public internet ("Public Endpoint")
-- Volterra VoltMesh node that can be used to connect to AWS VPC (network)
+- F5 Distributed Cloud Mesh node that can be used to connect to AWS VPC (network)
 - NGINX webserver that only has a private IP address 
 
 During the lab exercises we will explore different methods of protecting and exposing applications/webserver
