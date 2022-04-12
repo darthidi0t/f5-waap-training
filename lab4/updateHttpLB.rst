@@ -1,8 +1,8 @@
-Update HTTP Load Balancer on Volterra Regional Edge
+Update HTTP Load Balancer on Distributed Cloud Regional Edge
 =====================================================
 
 We will now update the HTTP load balancer that we previously created to connect to
-the "Private Endpoint" via the VoltMesh node that is deployed in the AWS lab environment.
+the "Private Endpoint" via the Cloud Mesh node that is deployed in the AWS lab environment.
 
 .. image:: ../_static/testdrive-volterra-waf-hybrid-vip.png
 
@@ -38,14 +38,14 @@ The private demo app should look like the following:
 .. image:: ../_static/screenshot-global-vip-private.png
     :width: 50%
 
-In this topology we are sending traffic to an AnyCast IP that is hosted in Volterra's Regional Edge.
+In this topology we are sending traffic to an AnyCast IP that is hosted in Distributed Cloud's Regional Edge.
 
-We then connect to the AWS resource via the VoltMesh node that is deployed in the same VPC as the "Private Endpoint".  
-The VoltMesh is only being used for network connectivity to the Private Endpoint; enforcement of the WAF policy is still
+We then connect to the AWS resource via the Cloud Mesh node that is deployed in the same VPC as the "Private Endpoint".  
+The Cloud Mesh is only being used for network connectivity to the Private Endpoint; enforcement of the WAF policy is still
 being applied in the Regional Edge.
 
 In the next exercise we will look at a third topology of deploying a WAF policy that will be enforced within the AWS VPC
-on the VoltMesh node (in the Customer Edge).
+on the Cloud Mesh node (in the Customer Edge).
 
 .. raw:: html
    
