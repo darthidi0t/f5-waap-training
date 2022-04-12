@@ -1,16 +1,16 @@
-Creating HTTP Load Balancer on Volterra Customer Edge
+Creating HTTP Load Balancer on Distributed Cloud Customer Edge
 =====================================================
 
-In the previous lab exercises we were connecting to a Volterra Load Balancer that was deployed in a Regional Edge.
+In the previous lab exercises we were connecting to a Distributed Cloud Load Balancer that was deployed in a Regional Edge.
 
-In the next lab exercise we will deploy a Load Balancer on the VoltMesh node that was deployed in the AWS VPC (Customer Edge location).
+In the next lab exercise we will deploy a Load Balancer on the Cloud Mesh node that was deployed in the AWS VPC (Customer Edge location).
 
 .. image:: ../_static/testdrive-volterra-waf-local-vip.png
 
 Exercise 1: HTTP Load Balancer Configuration
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-#. Start in VoltConsole and switch to the "Web App & API Protection" context. [You should already be here from previous lab]
+#. Start in Distributed Cloud Console and switch to the "Web App & API Protection" context. [You should already be here from previous lab]
 
 #. Navigate the menu to go to "Manage"->"HTTP Load Balancers" and click on "Add HTTP Load Balancers".
 
